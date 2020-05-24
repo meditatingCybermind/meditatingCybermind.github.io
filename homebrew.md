@@ -11,6 +11,20 @@ A collection of rule adjustements and additional feat options.
 * Additional Spell levels gained from Basic, Expert, and Master spellcasting multiclass feats are available 2 levels sooner.
 * All characters have an additional class feat at level 1.
 
+# Classes
+## Alchemist
+note (
+# Alchemist's Alchemical DC Adjustments
+* Remove the Potent Poisoner Feat
+* Remove the Powerful Alchemy Feat
+)
+
+### Class Features
+note (
+# Infused Reagents
+The DC of your alchemical items crafted with infused reagents is equal to your alchemist class DC.
+)
+
 # Skills
 ## Crafting
 
@@ -64,6 +78,7 @@ Your foes trigger an attack of opportunity with your ranged weapons as normal as
 
 ### Archetypes
 **Level reductions from general changes are already applied.**
+
 #### Spellcasters
 5 feats have been combined into one editorially for brevity. "Tradition Expansion" is a representation of 1 of 5 feats you can take for your spellcasting archetype.
 
