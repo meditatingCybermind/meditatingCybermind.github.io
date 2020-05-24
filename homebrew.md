@@ -150,26 +150,6 @@ A glimpse into the future ensures your next blow strikes true. The next time you
 
 
 # Items
-item (
-# Bomber's Gloves
-## Item 3+
--
-;Invested,Magical
-**Usage** worn gloves; **Bulk** L
--
-These runed, silk gloves improve hand-eye coordination, and help better work out the best throwing angle when throwing bombs. They also allow you to use your Intelligence modifier for attack rolls when throwing alchemist bombs.
-
--
-
-**Type** Minor Bomber's Gloves; **Level** 3; **Price** 60gp
-The gloves provide a +1 bonus to hit with Alchemist Bombs.
--
-**Type** Bomber's Gloves; **Level** 11; **Price** 1060gp
-The gloves provide a +2 bonus to hit with Alchemist Bombs.
--
-**Type** Major Bomber's Gloves; **Level** 17; **Price** 15000gp
-The gloves provide a +3 bonus to hit with Alchemist Bombs.
-)
 
 # Age of Ashes
 
