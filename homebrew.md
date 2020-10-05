@@ -236,7 +236,7 @@ Str +2, Dex +3, Con +2, Int –1, Wis +1, Cha +0
 **Speed**: 40 feet
 **Special**: grab(jaws)
 ###Support ability
-**Pack Attack** Your strikes deal an additional 1d4 piercing damage so long as it is threatened by your Warg Companion.
+**Pack Attack** Your strikes deal an additional 1d4 piercing damage so long as your target is threatened by your Warg Companion. If your animal companion is mature, this damage increases to 2d4. If your animal companion is nimble or savage, this damage increases by 2 or 3 respectively.
 
 ### Advanced Maneuver
 
