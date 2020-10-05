@@ -10,6 +10,9 @@ A collection of rule adjustements and additional feat options.
 * All multiclass archetype feat level requirements reduced by 2, to a minimum of 1.
 * Additional Spell levels gained from Basic, Expert, and Master spellcasting multiclass feats are available 2 levels sooner.
 * All characters have an additional class feat at level 1.
+head(
+-
+)
 
 # Classes
 ## Alchemist
@@ -30,7 +33,9 @@ note (
 * The DC of your alchemical items crafted with infused reagents is equal to your alchemist class DC.
 * "Each day during your daily preparations, you gain a number of batches of infused reagents equal to your level + your Intelligence modifier + 3."
 )
-
+head(
+-
+)
 # Skills
 ## General
 note (
@@ -49,7 +54,9 @@ to
 
 * “Find the full price of the item. You must spend a number of days equal to the full price of the item divided by that amount of gold gained by earning income in table 4-2 per day or 4 days whichever is lower. At this point, you attempt a Crafting check.”
 )
-
+head(
+-
+)
 #Feats
 ## Skill feats
 
@@ -79,7 +86,6 @@ item (
 You may instead choose to perform it as a free action.
 )
 
-## Class Feats
 ### Alchemist
 note (
 # Additional Feats
@@ -98,10 +104,10 @@ item (
 Your foes trigger an attack of opportunity with your ranged weapons as normal as long as they are within your first range increment. Strikes made in this manner suffer a -4 circumstance penalty to hit.
 )
 
-### Archetypes
+## Archetypes
 **Level reductions from general changes are already applied.**
 
-#### Spellcasters
+### Spellcasters
 7 feats have been combined into one editorially for brevity. "Tradition Expansion" is a representation of 1 of 7 feats you can take for your spellcasting archetype.
 
 Replace the word **TRADITION** in the name and text with "Bloodline / Occult / Divine / Primal / Arcane / Mysterious / Patron's" for Sorcerers / Bard / Clerics / Druids / Wizards / Oracles / Witches respectively. Replace **CLASS** with the name of the class in a similar manner.
@@ -115,12 +121,14 @@ item (
 You can cast more spells each day. Increase the spell slots you gain from CLASS archetype feats by 1 for each spell level other than your highest spell level
 )
 
-#### Alchemist
+### Alchemist
 note (
 # Alchemist Dedication
 * You gain the alchemist’s infused reagents class feature, gaining a number of reagents each day equal to your level + 1.
 )
-
+head(
+-
+)
 # Magic
 ## Focus Spells
 note (
@@ -157,7 +165,9 @@ All spellcasters gain additional base minimum and maximum spell slots per level.
 |Wizard|2|4|
 )
 
-
+head(
+-
+)
 
 # Spells
 ## Heightening Additions
@@ -177,7 +187,9 @@ A glimpse into the future ensures your next blow strikes true. The next time you
 **Heightened (4th)** You instead roll the attack three times.
 )
 
-
+head(
+-
+)
 # Items
 
 ## Elixir of Life
@@ -195,7 +207,9 @@ The following change is intended to rebalance elixir of life to smooth out their
 |15|VIII|8d6+21|3|1300|
 |17|IX|9d6+24|3|2500|
 |19|X|10d6+27|4|3000|
-
+head(
+-
+)
 
 # Age of Ashes
 
