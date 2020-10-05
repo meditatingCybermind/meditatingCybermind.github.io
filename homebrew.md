@@ -18,16 +18,28 @@ note (
 * Remove the Potent Poisoner Feat
 * Remove the Powerful Alchemy Feat
 )
+note (
+# Toxicologist
+Replace the second sentence with: "You gain the poison weapon feat, even if you don't meet the prerequisites for it. You gain additional poisons from this feat equal to your Intelligence modifier."
+)
+
 
 ### Class Features
 note (
 # Infused Reagents
-The DC of your alchemical items crafted with infused reagents is equal to your alchemist class DC.
+* The DC of your alchemical items crafted with infused reagents is equal to your alchemist class DC.
+* "Each day during your daily preparations, you gain a number of batches of infused reagents equal to your level + your Intelligence modifier + 3."
 )
 
 # Skills
-## Crafting
+## General
+note (
+# Recall Knowledge
+* Lore skills adjust difficulty down by 2 steps (CRB 503). This is a rules clarification.
+* Recall Knowledge can still be attempted if the previous attempt failed or critically failed, but the difficulty will increase by 1 step with each attempt regardless.
+)
 
+## Crafting
 note (
 # Craft 
 In the feat body, change:
@@ -67,6 +79,16 @@ item (
 You may instead choose to perform it as a free action.
 )
 
+## Class Feats
+### Alchemist
+note (
+# Additional Feats
+Add the Poison Weapon (6), Improved Poison Weapon (8), and Deadly Poison Weapon (12) to the alchemist feat list. For Alchemists, Deadly Poison Weapon is Common.
+)
+
+
+
+
 ### Fighter
 item (
 # Reactive Shot
@@ -80,9 +102,9 @@ Your foes trigger an attack of opportunity with your ranged weapons as normal as
 **Level reductions from general changes are already applied.**
 
 #### Spellcasters
-5 feats have been combined into one editorially for brevity. "Tradition Expansion" is a representation of 1 of 5 feats you can take for your spellcasting archetype.
+7 feats have been combined into one editorially for brevity. "Tradition Expansion" is a representation of 1 of 7 feats you can take for your spellcasting archetype.
 
-Replace the name **TRADITION** with Bloodline/Occult/Divine/Primal/Arcane for Sorcerers/Bard/Clerics/Druids/Wizards respectively. Replace **CLASS** with the name of the class in a similar manner.
+Replace the word **TRADITION** in the name and text with "Bloodline / Occult / Divine / Primal / Arcane / Mysterious / Patron's" for Sorcerers / Bard / Clerics / Druids / Wizards / Oracles / Witches respectively. Replace **CLASS** with the name of the class in a similar manner.
 item (
 # TRADITION Expansion
 ## Feat 10
@@ -93,6 +115,11 @@ item (
 You can cast more spells each day. Increase the spell slots you gain from CLASS archetype feats by 1 for each spell level other than your highest spell level
 )
 
+#### Alchemist
+note (
+# Alchemist Dedication
+* You gain the alchemist’s infused reagents class feature, gaining a number of reagents each day equal to your level + 1.
+)
 
 # Magic
 ## Focus Spells
@@ -124,7 +151,9 @@ All spellcasters gain additional base minimum and maximum spell slots per level.
 |Bard|2|5|
 |Cleric|2|4|
 |Druid|2|4|
+|Oracle|2|5|
 |Sorcerer|3|6|
+|Witch|2|4|
 |Wizard|2|4|
 )
 
@@ -150,6 +179,23 @@ A glimpse into the future ensures your next blow strikes true. The next time you
 
 
 # Items
+
+## Elixir of Life
+The following change is intended to rebalance elixir of life to smooth out their power level and make them more usable amongst parties of all levels, particularly low levels.
+
+|Level|Name|Healing|Bonus to Saves|Price|
+|-----|-----|-----|-----|-----|
+|1|I|1d6+2|1|3|
+|3|II|2d6+4|1|10|
+|5|III|3d6+6|1|30|
+|7|IV|4d6+9|1|70|
+|9|V|5d6+12|2|150|
+|11|VI|6d6+15|2|300|
+|13|VII|7d6+18|3|600|
+|15|VIII|8d6+21|3|1300|
+|17|IX|9d6+24|3|2500|
+|19|X|10d6+27|4|3000|
+
 
 # Age of Ashes
 
