@@ -187,6 +187,28 @@ A glimpse into the future ensures your next blow strikes true. The next time you
 **Heightened (4th)** You instead roll the attack three times.
 )
 
+item (
+# Haste
+## Spell 3
+-
+;Transmutation
+**Traditions** arcane, occult, Primal
+
+**Cast** :aa: Verbal, Somatic
+
+**Duration** 1 minute
+-
+Magic empowers the target to act faster. It gains the quickened condition and can use the extra action each round only for Strike and Stride actions.
+-
+**Heightened (5th)** You can target up to 3 creatures.
+
+**Heightened (7th)** You can target up to 6 creatures.
+
+**Heightened (9th)** You can target up to 10 creatures, and the extra action can be used for any action (or as part of an activity) with the Move or Attack trait.
+
+**Heightened (10th)** You can target up to 10 creatures, and the extra action can be used for any action (or as part of an activity) with the Move, Concentrate or Attack trait. Targets also gain an additional extra action which can be used to Stride or Step.
+)
+
 head(
 -
 )
