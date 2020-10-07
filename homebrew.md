@@ -25,14 +25,38 @@ note (
 # Toxicologist
 Replace the second sentence with: "You gain the poison weapon feat, even if you don't meet the prerequisites for it. You gain additional poisons from this feat equal to your Intelligence modifier."
 )
-
-
 ### Class Features
 note (
 # Infused Reagents
 * The DC of your alchemical items crafted with infused reagents is equal to your alchemist class DC.
 * "Each day during your daily preparations, you gain a number of batches of infused reagents equal to your level + your Intelligence modifier + 3."
 )
+### Feats
+note (
+# Additional Feats
+Add the Poison Weapon (6), Improved Poison Weapon (8), and Deadly Poison Weapon (12) to the alchemist feat list. For Alchemists, Deadly Poison Weapon is Common.
+)
+-
+## Fighter
+### Feats
+item (
+# Reactive Shot
+## Feat 4
+-
+;Fighter
+Your foes trigger an attack of opportunity with your ranged weapons as normal as long as they are within your first range increment. Strikes made in this manner suffer a -4 circumstance penalty to hit.
+)
+-
+## Oracle
+note (
+# Cursebound Trait
+Spells with this trait increase the severity of your oracular curse when cast while your focus pool is not full, or if you allow it to increase anyway. Usually only revelation spells have this trait. You can’t cast a cursebound spell if you don’t have an oracular curse.
+)
+note (
+# Focus Pool
+You have a focus pool of 1 + the number of focus spells you know, to a maximum of 4. 
+)
+
 head(
 -
 )
@@ -71,11 +95,14 @@ You can work on multiple projects at once, so long you can afford it. You may cr
 
 If you are legendary in crafting, you can craft any items you otherwise meet the requirements for in this manner, under the same price restrictions.
 )
-
-
-
+-
 ## Class Feats
 ### any
+note (
+# "Any" Trait
+A feat with the "Any" trait can be taken as a class feat or archetype feat on any class.
+)
+
 item (
 # :f: Fast Hands
 ## Feat 1
@@ -85,25 +112,7 @@ item (
 -
 You may instead choose to perform it as a free action.
 )
-
-### Alchemist
-note (
-# Additional Feats
-Add the Poison Weapon (6), Improved Poison Weapon (8), and Deadly Poison Weapon (12) to the alchemist feat list. For Alchemists, Deadly Poison Weapon is Common.
-)
-
-
-
-
-### Fighter
-item (
-# Reactive Shot
-## Feat 4
 -
-;Fighter
-Your foes trigger an attack of opportunity with your ranged weapons as normal as long as they are within your first range increment. Strikes made in this manner suffer a -4 circumstance penalty to hit.
-)
-
 ## Archetypes
 **Level reductions from general changes are already applied.**
 
@@ -143,10 +152,9 @@ Removed, due to the above.
 
 note (
 # Focus Pool
-You have a focus point pool equal to the number of focus spells you are able to use, to a maximum of 3.
+You have a focus pool equal to the number of focus spells you know, to a maximum of 3.
 )
-
-
+-
 ## General Spellcasting Changes
 ### Spell slots
 New terms: **"Base Minimum"** and **"Base Maximum"**. The Base Minimum is the lowest number of spells a character has per spell level, and the Base Maximum is the highest. Under normal rules, a Wizard has 2 as their base minimum, and 3 at their base maximum -- Plus one depending on their school. The following changes use these terms to define across the board changes of that style.
