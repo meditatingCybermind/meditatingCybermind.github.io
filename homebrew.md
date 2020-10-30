@@ -82,6 +82,18 @@ head(
 -
 )
 #Feats
+## Stamina Feats
+note (
+# Steel Your Resolve
+Now available to all characters as a basic action from level 1.
+)
+
+note (
+# Encouraging Words
+Removed the requirement that the target has taken stamina damage in the last turn.
+)
+
+
 ## Skill feats
 
 item (
