@@ -50,7 +50,8 @@ Your foes trigger an attack of opportunity with your ranged weapons as normal as
 ## Oracle
 note (
 # Cursebound Trait
-Spells with this trait increase the severity of your oracular curse when cast while your focus pool is not full, or if you allow it to increase anyway. Usually only revelation spells have this trait. You can’t cast a cursebound spell if you don’t have an oracular curse.
+##Wording Changed:
+Spells with this trait increase the severity of your oracular curse **when cast while your focus pool is not full, or if you will it to increase.** Usually only revelation spells have this trait. You can’t cast a cursebound spell if you don’t have an oracular curse.
 )
 note (
 # Focus Pool
@@ -78,22 +79,19 @@ to
 
 * “Find the full price of the item. You must spend a number of days equal to the full price of the item divided by that amount of gold gained by earning income in table 4-2 per day or 4 days whichever is lower. At this point, you attempt a Crafting check.”
 )
+
+## Medicine
+note (
+# Continual Recovery and Treat Wounds
+Treat wounds cooldown is now 10 minutes instead of 1 hour.
+
+Continual Recovery feat removed.
+)
+
 head(
 -
 )
 #Feats
-## Stamina Feats
-note (
-# Steel Your Resolve
-Now available to all characters as a basic action from level 1.
-)
-
-note (
-# Encouraging Words
-Removed the requirement that the target has taken stamina damage in the last turn.
-)
-
-
 ## Skill feats
 
 item (
@@ -125,6 +123,21 @@ item (
 You may instead choose to perform it as a free action.
 )
 -
+
+### Wizard
+item (
+# :a: Still Spell
+## Feat 4
+-
+;Concentrate,Metamagic,Wizard
+-
+You've learned how to cast many of your spells with complex spellwork weaved amidst the words of power required to cast them. If the next action you use is CAsting a Spell that has a somatic component and at least one other component, you can remove the Somatic component. This makes the spell castable when you cannot move your hands.
+)
+-
+
+
+
+
 ## Archetypes
 **Level reductions from general changes are already applied.**
 
@@ -179,8 +192,10 @@ All spellcasters gain additional base minimum and maximum spell slots per level.
 |Bard|2|5|
 |Cleric|2|4|
 |Druid|2|4|
+|Magus|1|3|
 |Oracle|2|5|
 |Sorcerer|3|6|
+|Summoner|1|3|
 |Witch|2|4|
 |Wizard|2|4|
 )
@@ -190,6 +205,26 @@ head(
 )
 
 # Spells
+## Rewrites
+item (
+# Read Aura
+## Spell 1
+-
+;Cantrip, Detection
+**Range** 30 feet; **Targets** 1 object
+
+**Traditions** arcane, occult, divine, primal
+
+**Cast** 1 minute
+
+-
+You focus on the target object, opening your mind to perceive magical auras. When the casting is complete, you know whether that item is magical, and if it is, you learn the school of magic and you can immediately attempt to identify it instantly with a +1 status bonus to the check.
+If the object is illusory, you detect this only if the effect's level is lower than the level of your read aura spell.
+-
+**Heightened (3rd)** You can target up to 10 objects.
+
+**Heightened (6th)** You can target any number of objects.
+)
 ## Heightening Additions
 item (
 # True Strike
