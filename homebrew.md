@@ -7,11 +7,18 @@ A collection of rule adjustements and additional feat options.
 # General Changes
 
 * All class feats with a level requirement of 2 now have a level requirement of 1.
-* All multiclass archetype feat level requirements reduced by 2, to a minimum of 1.
+* All archetype feat level requirements reduced by 2, to a minimum of 1.
 * Additional Spell levels gained from Basic, Expert, and Master spellcasting multiclass feats are available 2 levels sooner.
 * All characters have an additional class feat at level 1.
 head(
 -
+)
+
+# Ancestries
+## Elf
+note (
+# Ancient Elf
+Can now select any level 2 (now 1) archetype at level one, not just multiclass archetypes. All other restrictions still apply.
 )
 
 # Classes
@@ -20,6 +27,15 @@ note (
 # Alchemist's Alchemical DC Adjustments
 * Remove the Potent Poisoner Feat
 * Remove the Powerful Alchemy Feat
+)
+note (
+# Proficiencies
+* Alchemical Weapon Expert now granted at level 5.
+* Alchemical Expert now granted at level 7.
+* Alchemical Weapon Master (new) granted at 13
+* Alchemical Master now granted at 15
+* Alchemical Weapon Legend (new) now granted at 17
+* Alchemical Legend (new) now granted at 19
 )
 note (
 # Toxicologist
@@ -35,6 +51,11 @@ note (
 note (
 # Additional Feats
 Add the Poison Weapon (6), Improved Poison Weapon (8), and Deadly Poison Weapon (12) to the alchemist feat list. For Alchemists, Deadly Poison Weapon is Common.
+)
+note (
+# Subtle Delivery
+Text now reads as:
+Your Strikes can apply injury poisons even if they deal no damage due to a creature's resistance. If you critically succeed at an attack roll using a weapon you've poisoned, the target treats the save as one degree worse.
 )
 -
 ## Fighter
@@ -58,6 +79,15 @@ note (
 You have a focus pool of 1 + the number of focus spells you know, to a maximum of 4. 
 )
 
+## Wizard
+note (
+# Spell Subtitution
+In light of the spellcasting changes below giving Spell Substitution as written in the CRB to all prepared spellcasters, the text of the Spell Subtitution Thesis changes as follows:
+
+- Once per day as a free action, you may swap a spell you have prepared in one of your spell slots for any spell you know in your spellbook. You must be holding your spellbook to do this. If you are a master in wizard spellcasting, you may do this twice per day, and if you are legendary you may do it three times per day.
+
+)
+
 head(
 -
 )
@@ -67,6 +97,15 @@ note (
 # Recall Knowledge
 * Lore skills adjust difficulty down by 2 steps (CRB 503). This is a rules clarification.
 * Recall Knowledge can still be attempted if the previous attempt failed or critically failed, but the difficulty will increase by 1 step with each attempt regardless.
+)
+
+## Athletics
+note (
+# Disarm
+- Duration of the penalty increased to end of their next turn. They can end it early with an Interact action. 
+
+The success entry for disarm now reads as:
+You weaken your target's grasp on the item. Until the end of that creature's turn, attempts to Disarm the target of that item gain a +2 circumstance bonus, and the target takes a -2 circumstance penalty to attacks with the item or other checks requiring a firm grasp on the item.
 )
 
 ## Crafting
@@ -181,6 +220,9 @@ You have a focus pool equal to the number of focus spells you know, to a maximum
 )
 -
 ## General Spellcasting Changes
+### Prepared Spellcasters gain Spell Substitution
+All prepared spellcasters may spend 10 minutes to swap a spell out, as the Wizard's Spell Substitution Thesis from the CRB.
+
 ### Spell slots
 New terms: **"Base Minimum"** and **"Base Maximum"**. The Base Minimum is the lowest number of spells a character has per spell level, and the Base Maximum is the highest. Under normal rules, a Wizard has 2 as their base minimum, and 3 at their base maximum -- Plus one depending on their school. The following changes use these terms to define across the board changes of that style.
 
@@ -225,21 +267,27 @@ If the object is illusory, you detect this only if the effect's level is lower t
 
 **Heightened (6th)** You can target any number of objects.
 )
+
 ## Heightening Additions
 item (
-# True Strike
-## Spell 1
+# Dimension Door
+## Spell 4
 -
-;Fortune, Divination
+;Conjuration, Teleportation
 **Traditions** arcane, occult
 
-**Cast** :a: Verbal
+**Cast** :aa: Verbal, Somatic
 
-**Duration** until the end of your turn
 -
-A glimpse into the future ensures your next blow strikes true. The next time you make an attack roll before the end of your turn, roll the attack twice and use the better result. The attack ignores circumstance penalties to the attack roll and any flat check required due to the target being concealed or hidden.
+Opening a door that bypasses normal space, you instantly transport yourself and any items you’re wearing and holding from your current space to a clear space within range you can see. If this would bring another creature with you—even if you’re carrying it in an extradimensional container—the spell is lost.
 -
-**Heightened (4th)** You instead roll the attack three times.
+**Heightened (5th)** The range increases to 1 mile. You don’t need to be able to see your destination, as long as you have been there in the past and know its relative location and distance from you. You are temporarily immune for 1 hour.
+
+**Heightened (7th)** As 5th level, but the range increases to 10 miles and the cast time increases to 3 actions with a material component. The teleportation leaves a magical residue behindfor 10 minutes which allows someone trained in arcana or occultism to attempt a hard Identify Magic check vs your spell DC to determine which direction you went and precisely how far. If they have also been to this location or near it, they immediately know where you went.
+
+**Heightened (9th)** As 7th level, but the range increases to 100 miles and the temporary immunity increases to 8 hours. The residue remains for 1 hour.
+
+**Heightened (10th)** As 9th level, but the range increasses to 1000 miles and the temporary immunity increases to 24 hours. The residue remains for 8 hours.
 )
 
 item (
@@ -264,10 +312,45 @@ Magic empowers the target to act faster. It gains the quickened condition and ca
 **Heightened (10th)** You can target up to 10 creatures, and the extra action can be used for any action (or as part of an activity) with the Move, Concentrate or Attack trait. Targets also gain an additional extra action which can be used to Stride or Step.
 )
 
+item (
+# True Strike
+## Spell 1
+-
+;Fortune, Divination
+**Traditions** arcane, occult
+
+**Cast** :a: Verbal
+
+**Duration** until the end of your turn
+-
+A glimpse into the future ensures your next blow strikes true. The next time you make an attack roll before the end of your turn, roll the attack twice and use the better result. The attack ignores circumstance penalties to the attack roll and any flat check required due to the target being concealed or hidden.
+-
+**Heightened (4th)** You instead roll the attack three times.
+)
+
+
+
 head(
 -
 )
 # Items
+
+## New Items
+
+item (
+# Bag of Shared Infusions
+## Item 3
+-
+;Conjuration, Extradimensional, Magical
+-
+This bag was invented by frustrated alchemists and their magical companions, and is commonplace amongst adventuring parties worth their salt. This extra small bag of holding has a small pocket just inside its mouth containing a single pouch that can be clipped to a belt or other article of clothing and looks to be large enough to hold a single potion. When one of these pouches is removed from the small pocket inside the bag, another one is immediately created. These pouches are linked to the Bag of Shared Infusions they were pulled from. Up to 10 pouches can be linked at a time, and if an 11th pouch is attempted to be pulled from the Bag of Shared Infusions, the oldest pouch is instantly destroyed.
+
+The pouches are empty. Someone with a linked pouch can interact to draw from the pouch by imagining the pouch containing a single alchemical item with the Infused trait from the pouch; this action gains the concentrate trait. If that item exists in the Bag of Shared Infusions, the item instantaneously appears in the shared extradimensional space of the pouch and can be drawn normally as part of the interact action. Before the item appears, the owner of the Bag of Shared Infusions can mentally interrupt the process as a free action, and in that case the interact action is cancelled and the action is otherwise still available.
+
+(In effect, this explains away "I'm gonna give each of you 3 elixirs, and im gonna give this guy a couple poisons, and im gonna give you a couple posions too, and...")
+)
+
+-
 
 ## Elixir of Life
 The following change is intended to rebalance elixir of life to smooth out their power level and make them more usable amongst parties of all levels, particularly low levels.
